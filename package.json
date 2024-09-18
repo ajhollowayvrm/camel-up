@@ -12,22 +12,25 @@
     "lintfix": "npm run lint:js -- --fix"
   },
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.651.1",
     "@nuxtjs/axios": "^5.13.6",
-    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/pwa": "^3.1.2",
     "core-js": "^3.25.3",
-    "nuxt": "^2.15.8",
+    "nuxt": "^3.13.2",
+    "typescript": "^5.6.2",
     "vue": "^2.7.10",
-    "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10",
+    "vue-server-renderer": "^2.2.6",
+    "vue-template-compiler": "^0.1.0",
     "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
-    "@nuxt/types": "^2.15.8",
+    "@nuxt/types": "^2.18.1",
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/eslint-config-typescript": "^11.0.0",
     "@nuxtjs/eslint-module": "^3.1.0",
     "@nuxtjs/vuetify": "^1.12.3",
+    "@types/node": "^22.5.5",
     "eslint": "^8.24.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.5.1"
